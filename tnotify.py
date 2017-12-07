@@ -185,13 +185,13 @@ def config_cb(data, option, value):
 
 def bootstrap_tray():
 	BUF_SIZE = 65536
-	weechat.mkdir_parents(plugin_dir, '0755')
+	weechat.mkdir_parents(plugin_dir, 0755)
 
 	if weechat.config_get_plugin("icon") == "weechat":
 		# Download icon
 		icon = plugin_dir + "/icons/weechat.png"
 		if not path.exists( icon ):
-			weechat.mkdir_parents( plugin_dir + "/icons" , '0755')
+			weechat.mkdir_parents( plugin_dir + "/icons" , 0755)
 			weechat.hook_process_hashtable("url:" + WEECHAT_ICON_URL,
 					{"file_out": icon + ".tmp"}, 30 * 1000, "process_download_cb", "")
 			time.sleep(0.5)
@@ -208,7 +208,7 @@ def bootstrap_tray():
 	if weechat.config_get_plugin("alt-icon") == "null":
 		icon = plugin_dir + "/icons/null.png"
 		if not path.exists( icon ):
-			weechat.mkdir_parents( plugin_dir + "/icons" , '0755')
+			weechat.mkdir_parents( plugin_dir + "/icons" , 0755)
 			weechat.hook_process_hashtable("url:" + NULL_ICON_URL,
 					{"file_out": icon + ".tmp"}, 30 * 1000, "process_download_cb", "")
 			time.sleep(0.5)
