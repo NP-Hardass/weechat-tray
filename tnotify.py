@@ -35,6 +35,7 @@ SYSTRAY_PY_SHA512="26e61540470dfd86aee239cf7b9e663a40b6ef2cfd990ef593875779d40ff
 
 import weechat as weechat
 from os import environ, path, kill, rename, remove
+import subprocess
 import signal
 import hashlib
 import time
