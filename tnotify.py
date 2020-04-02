@@ -23,6 +23,10 @@
 
 # ChangeLog:
 #
+# 0.1.1
+# Py3 support through futurize
+# Update external components
+#
 # 0.1.0
 # Initial release
 
@@ -41,7 +45,7 @@ import time
 from builtins import object
 
 SCRIPT_NAME = "tnotify"
-SCRIPT_VERSION = "0.1.0"
+SCRIPT_VERSION = "0.1.1"
 SCRIPT_LICENSE = "GPL3"
 SCRIPT_AUTHOR = "NP-Hardass <NP.Hardass@gmail.com>"
 SCRIPT_DESC = "System tray notification in (Py)Qt"
