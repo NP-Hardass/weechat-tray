@@ -28,10 +28,10 @@
 
 WEECHAT_ICON_URL="https://raw.githubusercontent.com/weechat/weechat/v1.7/weechat.png"
 WEECHAT_ICON_SHA512="4784b22a6edc63ed2083cc2cb1cec843d490ad210bc587e691e1b09a3dcb8dbf54a75d1f94f404d40a32d9c9e8b242e2294e373e768a6bfe28cd560271d3d886"
-NULL_ICON_URL="https://raw.githubusercontent.com/NP-Hardass/blinking-pyqt-tray/0.1.0/null.png"
+NULL_ICON_URL="https://raw.githubusercontent.com/NP-Hardass/blinking-pyqt-tray/0.1.1/null.png"
 NULL_ICON_SHA512="66e293276a50b2a88e87df2dec5f26ab26be69f26f36db1af96426a5ee355901f67ad307a59c3429eb915494cc53a97ae2942d867b89e5159c2d8011fed503eb"
-SYSTRAY_PY_URL="https://raw.githubusercontent.com/NP-Hardass/blinking-pyqt-tray/0.1.0/systray.py"
-SYSTRAY_PY_SHA512="26e61540470dfd86aee239cf7b9e663a40b6ef2cfd990ef593875779d40ff2e4c3a284e87d2b0a821cb0e6540c3b91b4f26c47cf873f725a839fae565f1b884f"
+SYSTRAY_PY_URL="https://raw.githubusercontent.com/NP-Hardass/blinking-pyqt-tray/0.1.1/systray.py"
+SYSTRAY_PY_SHA512="a66fca7b73bef2325d00c03e6aba2966f65bcbed435e9d1d82d8fc48e778e07a90f8ead1ac7080760b69bd567e9f133601dc33447543e8bd10175b04d6e25307"
 
 import weechat as weechat
 from os import environ, path, kill, rename, remove
